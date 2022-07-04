@@ -1,4 +1,4 @@
-export class ListOfBooks {
+export default class ListOfBooks {
   constructor() {
     this.books = (localStorage.myBooks != null) ? JSON.parse(localStorage.myBooks) : [];
   }

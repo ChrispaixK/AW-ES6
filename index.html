@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Awesome Books ES6</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-bar">
+            <a href="#" class="logo">Awesome Books</a>
+            <div class="menu-links">
+                <ul>
+                    <li>
+                        <a class="nav-link active" aria-current="page" href="#">List</a>
+                    </li>
+                    <li class="items">
+                        <a class="nav-link inactive" href="#">Add new</a>
+                    </li>
+                    <li class="items">
+                        <a class="nav-link inactive" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="date">
+        <p id="render-date"></p>
+    </div>
+    <div class="main">
+
+        <section id="books-list" class="library">
+            <h1>All Awesome books</h1>
+            <div>
+                <div id="books" class="books"></div>
+            </div>
+        </section>
+
+        <section id="add-book-container" class="nodisplay">
+            <div class="library">
+                <div>
+                    <h2>Add a new book</h2>
+                    <div>
+                        <form action="#" id="form" class="form">
+                            <input class="input" type="text" name="title" id="title" placeholder="Title" />
+                            <br>
+                            <input class="input" type="text" name="author" id="author" placeholder="Author" />
+                            <br>
+                            <input class="input-btn" type="submit" name="submit-button" id="submit-button"
+                                value="Add book" onclick="myBooks.newBook()" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="nodisplay contact">
+            <h2>Contact Information</h2>
+            <p>Do have any questins or you just want to say "Hello"?
+                You can reach out to us!</p>
+            <ul>
+                <li>Our e-mail mail@mail.com</li>
+                <li>Our phone number : 004354857454822</li>
+                <li>Our address: Streetname 22 84 503 City, Country </li>
+            </ul>
+        </section>
+    </div>
+    <footer class="footer">
+        <p>Copyright...</p>
+    </footer>
+    <script type="module" src="main.js"></script>
+    
+</body>
+
+</html>

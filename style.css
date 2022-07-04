@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.nodisplay {
+  display: none;
+}
+
+.date {
+  font-weight: bold;
+  text-align: right;
+  margin-right: 10px;
+}
+
+/* Nav bar */
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  box-shadow: 0 0 5px 0 #2e2e2e52;
+  background-color: #fff;
+}
+
+.logo {
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #2e2e2e;
+}
+
+.main {
+  min-height: 75vh;
+}
+
+.menu-links ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.menu-links li {
+  padding: 5px 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #2e2e2e;
+}
+
+.menu-links a {
+  text-decoration: none;
+}
+
+.active {
+  color: #f60;
+}
+
+.inactive {
+  color: #2e2e2e;
+}
+
+.items:nth-child(2),
+.items:nth-child(3) {
+  border-left: 1.5px solid rgb(187, 112, 112);
+}
+
+/* booklist styles */
+
+.library {
+  text-align: center;
+}
+
+.book-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto 10px auto;
+  background-color: #dddada52;
+  box-shadow: 0 0 3px 0 #2e2e2e44;
+  padding: 0 25px;
+}
+
+.btn button {
+  border: none;
+  background-color: #f00;
+  color: #fff;
+  font-weight: 600;
+  padding: 5px 10px;
+  box-shadow: 0 0 3px 0 #0003;
+}
+
+.form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.input {
+  width: 98.8%;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.input-btn {
+  float: right;
+  padding: 10px 15px;
+  background-color: #008000;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+}
+
+.contact {
+  padding-top: 30px;
+  text-align: center;
+  margin: 50px 50px 0 50px;
+  box-shadow: 0 0 3px 0 #0003;
+}
+
+.contact p {
+  color: red;
+  padding-top: 20px;
+  font-size: 18px;
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact ul {
+  padding-top: 10px;
+  list-style-type: square;
+  padding-bottom: 50px;
+}
+
+.contact ul li {
+  font-size: 18px;
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* footer styles */
+.footer {
+  border: 1px solid #dfdfdf;
+  padding: 10px 20px;
+  margin: 0 10px;
+}
